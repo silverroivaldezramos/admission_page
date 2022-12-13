@@ -1,0 +1,1860 @@
+* body {
+  background-color: #05a9e1;
+  margin: 0px auto;
+}
+* body header #cohort_section {
+  background-color: #272634;
+}
+* body header #cohort_section #cohort_container {
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 3px 40px 3px 600px;
+}
+* body header #cohort_section #cohort_container #cohort_notes {
+  background-color: #272634;
+  color: #ffffff;
+  font: normal 400 16px/16px 'Proxima Nova';
+  letter-spacing: 0.6px;
+}
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list {
+  align-items: center;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list .cohort_item {
+  list-style: none;
+  padding: 0px;
+}
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list .cohort_item #cohort_button {
+  background-color: transparent;
+  border: 1px solid #05aae1;
+  color: #ffffff;
+  font: normal 400 16px/16px 'Proxima Nova';
+  height: 36px;
+  letter-spacing: 0.6px;
+  margin-left: 60px;
+  padding: 10px 22px;
+}
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list #cohort_text {
+  margin-right: 0px;
+}
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list #cohort_contact {
+  align-items: center;
+  display: flex;
+  margin-left: 231px;
+  margin-right: 0px;
+}
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list #cohort_contact #cohort_phone_icon {
+  margin-right: 13px;
+  vertical-align: center;
+}
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list #cohort_contact #cohort_contact_number {
+  color: #05aae1;
+  font: normal 400 16px/16px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin: 0px;
+  vertical-align: center;
+}
+@media only screen and (max-width: 1439px) {
+  * body header #cohort_section #cohort_container {
+    margin: 0px auto;
+    max-width: 834px;
+    padding: 11px 188px 12px 388px;
+  }
+  * body header #cohort_section #cohort_container #cohort_notes #cohort_list .cohort_item #cohort_button {
+    display: none;
+  }
+  * body header #cohort_section #cohort_container #cohort_notes #cohort_list #cohort_contact {
+    display: none;
+  }
+}
+@media only screen and (max-width: 834px) {
+  * body header #cohort_section {
+    display: none;
+  }
+}
+* body header #navbar_section {
+  background-color: #1d1f21;
+}
+* body header #navbar_section #navbar_container {
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 13px 40px 13px 30px;
+}
+* body header #navbar_section #navbar_container .navbar {
+  font: normal 700 16px/19px 'Proxima Nova';
+  letter-spacing: 0.4px;
+  margin: 0px;
+  padding: 0px;
+}
+* body header #navbar_section #navbar_container .navbar .navbar_list .nav-link {
+  padding: 0px;
+}
+* body header #navbar_section #navbar_container .navbar #coding_dojo {
+  margin-right: 179px;
+}
+* body header #navbar_section #navbar_container .navbar #menu {
+  display: none;
+}
+* body header #navbar_section #navbar_container .navbar .collapse .nav-item {
+  align-items: center;
+  display: flex;
+  margin: 0px 46px 0px 0px;
+}
+* body header #navbar_section #navbar_container .navbar .collapse .nav-item .nav-link {
+  color: #ffffff;
+  padding: 0px;
+}
+* body header #navbar_section #navbar_container .navbar .collapse .nav-item .dropdown_icon {
+  margin-left: 10px;
+  width: 10px;
+}
+* body header #navbar_section #navbar_container .navbar .collapse li:last-child {
+  margin-right: 70px;
+}
+* body header #navbar_section #navbar_container .navbar .collapse #dojo_diff {
+  margin-right: 25px;
+}
+* body header #navbar_section #navbar_container .navbar .collapse #online_campus {
+  margin-right: 29px;
+}
+* body header #navbar_section #navbar_container .navbar .btn {
+  background-color: #05aae1;
+  color: #ffffff;
+  font: normal 700 16px/19px 'Proxima Nova';
+  height: 36px;
+  padding: 0px;
+  text-align: center;
+  width: 120px;
+}
+@media only screen and (max-width: 1439px) {
+  * body header #navbar_section #navbar_container {
+    margin: 0px auto;
+    max-width: 834px;
+    padding: 19px 20px 18px 96px;
+  }
+  * body header #navbar_section #navbar_container .navbar #coding_dojo {
+    display: none;
+  }
+  * body header #navbar_section #navbar_container .navbar .collapse:not(.show) {
+    display: inline;
+  }
+  * body header #navbar_section #navbar_container .navbar .collapse li:last-child {
+    display: none;
+  }
+  * body header #navbar_section #navbar_container .navbar .collapse #curriculum {
+    margin-right: 0px;
+  }
+  * body header #navbar_section #navbar_container .navbar .btn {
+    display: none;
+  }
+  * body header #navbar_section #navbar_container .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+}
+@media only screen and (max-width: 833px) {
+  * body header #navbar_section {
+    background-color: #1d1f21;
+  }
+  * body header #navbar_section #navbar_container {
+    margin: 0px auto;
+    max-width: 375px;
+    padding: 21px 35px 17px 24px;
+  }
+  * body header #navbar_section #navbar_container .navbar {
+    font: normal 700 16px/19px 'Proxima Nova';
+    letter-spacing: 0.4px;
+    margin: 0px;
+    padding: 0px;
+  }
+  * body header #navbar_section #navbar_container .navbar .navbar_list .nav-link {
+    padding: 0px;
+  }
+  * body header #navbar_section #navbar_container .navbar #coding_dojo {
+    display: inline;
+  }
+  * body header #navbar_section #navbar_container .navbar #menu {
+    display: inline;
+  }
+  * body header #navbar_section #navbar_container .navbar .collapse:not(.show) {
+    display: inline;
+  }
+  * body header #navbar_section #navbar_container .navbar .btn {
+    display: none;
+  }
+  * body header #navbar_section #navbar_container .navbar-nav {
+    display: none;
+  }
+}
+* body main #admissions_section {
+  background-color: #05a9e1;
+  position: relative;
+}
+* body main #admissions_section #admissions_container {
+  background: #05a9e1 url("../img/word_bubble.png") no-repeat 232px 48px;
+  color: #ffffff;
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 164px 600px 52px 364px;
+  position: relative;
+}
+* body main #admissions_section #admissions_container h1 {
+  font: normal 700 45px/47px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 12px;
+}
+* body main #admissions_section #admissions_container p {
+  font: normal 400 18px/22px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 26px;
+}
+* body main #admissions_section #admissions_container button {
+  background-color: transparent;
+  border-radius: 2px;
+  border: 2px solid #FFFFFF;
+  color: #ffffff;
+  font: normal 700 16px/19px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  padding: 23px 35px;
+}
+* body main #admissions_section #admissions_container #couple {
+  left: 900px;
+  position: absolute;
+  top: 232px;
+}
+* body main #admissions_section #admissions_container #timeline {
+  position: absolute;
+  left: 608px;
+  top: 370px;
+}
+* body main #admissions_section #research_container {
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 0px 146px 0px 106px;
+  color: #ffffff;
+  display: flex;
+  align-content: flex-start;
+}
+* body main #admissions_section #research_container #research {
+  height: 333px;
+  margin-right: 256px;
+  width: 476px;
+}
+* body main #admissions_section #research_container #research_text {
+  margin-top: 70px;
+}
+* body main #admissions_section #research_container #research_text h2 {
+  font: normal 700 40px/46px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 34px;
+}
+* body main #admissions_section #research_container #research_text #research_list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+* body main #admissions_section #research_container #research_text #research_list .research_item::before {
+  content: url(../img/checkmark_icon.png);
+  margin-right: 20px;
+  vertical-align: top;
+}
+* body main #admissions_section #research_container #research_text #research_list .research_item {
+  display: flex;
+  font: normal 400 18px/22px 'Proxima Nova';
+  justify-content: flex-start;
+  letter-spacing: 0.6px;
+  margin-bottom: 14px;
+}
+* body main #admissions_section #research_container #research_text #research_list .research_item:last-child {
+  margin-bottom: 0px;
+}
+* body main #admissions_section #application_container {
+  color: #ffffff;
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 61px 238px 0px 148px;
+  display: flex;
+  align-content: flex-start;
+}
+* body main #admissions_section #application_container #application_text h2 {
+  font: normal 700 40px/46px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 37px;
+}
+* body main #admissions_section #application_container #application_text #application_list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+* body main #admissions_section #application_container #application_text #application_list .application_item::before {
+  content: url(../img/checkmark_icon.png);
+  margin-right: 20px;
+  vertical-align: top;
+}
+* body main #admissions_section #application_container #application_text #application_list .application_item {
+  display: flex;
+  font: normal 400 18px/22px 'Proxima Nova';
+  justify-content: flex-start;
+  letter-spacing: 0.6px;
+  margin-bottom: 14px;
+}
+* body main #admissions_section #application_container #application_text #application_list .application:last-child {
+  margin-bottom: 0px;
+}
+* body main #admissions_section #application_container #application {
+  margin-left: 158px;
+  width: 480px;
+  height: 188px;
+}
+* body main #admissions_section #financing_container {
+  align-content: flex-start;
+  color: #ffffff;
+  display: flex;
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 0px 139px 0px 153px;
+  position: relative;
+}
+* body main #admissions_section #financing_container #financing {
+  margin-right: 209px;
+  margin-top: 51px;
+}
+* body main #admissions_section #financing_container #financing_text h2 {
+  font: normal 700 40px/46px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 34px;
+  margin-right: 128px;
+}
+* body main #admissions_section #financing_container #financing_text #financing_list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+* body main #admissions_section #financing_container #financing_text #financing_list .financing_item::before {
+  content: url(../img/checkmark_icon.png);
+  margin-right: 20px;
+  vertical-align: top;
+}
+* body main #admissions_section #financing_container #financing_text #financing_list .financing_item {
+  display: flex;
+  font: normal 400 18px/22px 'Proxima Nova';
+  justify-content: flex-start;
+  letter-spacing: 0.6px;
+  margin-bottom: 14px;
+}
+* body main #admissions_section #financing_container #financing_text #financing_list .financing_item:last-child {
+  margin-bottom: 0px;
+}
+* body main #admissions_section #enrollment_container {
+  align-content: flex-start;
+  color: #ffffff;
+  display: flex;
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 106px 102px 15px 146px;
+}
+* body main #admissions_section #enrollment_container #enrollment_text h2 {
+  font: normal 700 40px/46px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 21px;
+}
+* body main #admissions_section #enrollment_container #enrollment_text #enrollment_list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+* body main #admissions_section #enrollment_container #enrollment_text #enrollment_list .enrollment_item::before {
+  content: url(../img/checkmark_icon.png);
+  margin-right: 20px;
+  vertical-align: top;
+}
+* body main #admissions_section #enrollment_container #enrollment_text #enrollment_list .enrollment_item {
+  display: flex;
+  font: normal 400 18px/22px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 14px;
+}
+* body main #admissions_section #enrollment_container #enrollment_text #enrollment_list #enrollment_item_details {
+  display: flex;
+  font: normal 400 12px/14px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 14px;
+  margin-left: 48px;
+  margin-top: 11px;
+}
+* body main #admissions_section #enrollment_container #enrollment_text #enrollment_list .enrollment:last-child {
+  margin-bottom: 0px;
+}
+* body main #admissions_section #enrollment_container #enrollment {
+  margin-left: 178px;
+}
+* body main #admissions_section #journey_container {
+  align-content: flex-start;
+  color: #ffffff;
+  display: flex;
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 15px 474px 96px 256px;
+  position: relative;
+}
+* body main #admissions_section #journey_container #journey {
+  margin-right: 52px;
+  width: 171px;
+  height: 157px;
+}
+* body main #admissions_section #journey_container #journey_text h2 {
+  font: normal 700 40px/46px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin: 37px 163px 25px 0px;
+}
+* body main #admissions_section #journey_container #journey_text p {
+  font: normal 400 18px/22px 'Proxima Nova';
+  letter-spacing: 0.6px;
+}
+* body main #admissions_section #journey_container #plant {
+  position: absolute;
+  bottom: 0px;
+  right: 194px;
+}
+@media only screen and (max-width: 1439px) {
+  * body main #admissions_section #admissions_container {
+    background: #05a9e1 url("../img/word_bubble.png") no-repeat 49px 48px;
+    margin: 0px auto;
+    max-width: 834px;
+    padding: 164px 230px 56px 187px;
+  }
+  * body main #admissions_section #admissions_container h1 {
+    font: normal 700 45px/47px 'Proxima Nova';
+  }
+  * body main #admissions_section #admissions_container p {
+    font: normal 400 18px/22px 'Proxima Nova';
+  }
+  * body main #admissions_section #admissions_container #couple {
+    left: 605px;
+    position: absolute;
+    top: 232px;
+  }
+  * body main #admissions_section #admissions_container #timeline {
+    display: none;
+  }
+  * body main #admissions_section #research_container {
+    margin: 0px auto;
+    max-width: 834px;
+    padding: 41px 65px 55px 71px;
+  }
+  * body main #admissions_section #research_container #research {
+    margin-right: 29px;
+    width: 327px;
+    height: 228px;
+  }
+  * body main #admissions_section #research_container #research_text {
+    margin-top: 25px;
+  }
+  * body main #admissions_section #research_container #research_text h2 {
+    font: normal 700 32px/46px 'Proxima Nova';
+    margin: 0px 0px 24px 0px;
+    padding: 0px;
+  }
+  * body main #admissions_section #research_container #research_text #research_list .research_item::before {
+    margin-right: 22px;
+  }
+  * body main #admissions_section #research_container #research_text #research_list .research_item {
+    font: normal 400 16px/19px 'Proxima Nova';
+  }
+  * body main #admissions_section #research_container #research_text #research_list .research_item:last-child {
+    margin-bottom: 0px;
+  }
+  * body main #admissions_section #application_container {
+    margin: 0px auto;
+    max-width: 834px;
+    padding: 0px 52px 0px 61px;
+  }
+  * body main #admissions_section #application_container #application_text h2 {
+    font: normal 700 32px/46px 'Proxima Nova';
+    margin-bottom: 22px;
+  }
+  * body main #admissions_section #application_container #application_text #application_list .application_item::before {
+    margin-right: 18px;
+  }
+  * body main #admissions_section #application_container #application_text #application_list .application_item {
+    font: normal 400 16px/19px 'Proxima Nova';
+    margin-bottom: 14px;
+  }
+  * body main #admissions_section #application_container #application_text #application_list .application:last-child {
+    margin-bottom: 0px;
+  }
+  * body main #admissions_section #application_container #application {
+    margin: 68px 0px 0px 12px;
+    width: 381px;
+    height: 148px;
+  }
+  * body main #admissions_section #financing_container {
+    margin: 0px auto;
+    max-width: 834px;
+    padding: 53px 65px 38px 46px;
+  }
+  * body main #admissions_section #financing_container #financing {
+    height: 198px;
+    margin: 54px 28px 0px 0px;
+    width: 356px;
+  }
+  * body main #admissions_section #financing_container #financing_text h2 {
+    font: normal 700 32px/40px 'Proxima Nova';
+    margin-bottom: 26px;
+    margin-right: 75px;
+  }
+  * body main #admissions_section #financing_container #financing_text #financing_list .financing_item::before {
+    margin-right: 21px;
+  }
+  * body main #admissions_section #financing_container #financing_text #financing_list .financing_item {
+    font: normal 400 16px/19px 'Proxima Nova';
+    margin-bottom: 14px;
+  }
+  * body main #admissions_section #financing_container #financing_text #financing_list .financing_item:last-child {
+    margin-bottom: 0px;
+  }
+  * body main #admissions_section #enrollment_container {
+    margin: 0px auto;
+    max-width: 834px;
+    padding: 0px 35px 0px 61px;
+  }
+  * body main #admissions_section #enrollment_container #enrollment_text h2 {
+    font: normal 700 32px/40px 'Proxima Nova';
+    margin-bottom: 24px;
+  }
+  * body main #admissions_section #enrollment_container #enrollment_text #enrollment_list .enrollment_item::before {
+    margin-right: 23px;
+  }
+  * body main #admissions_section #enrollment_container #enrollment_text #enrollment_list .enrollment_item {
+    font: normal 400 16px/19px 'Proxima Nova';
+    margin-bottom: 0px;
+  }
+  * body main #admissions_section #enrollment_container #enrollment_text #enrollment_list #enrollment_item_details {
+    font: normal 400 12px/18px 'Proxima Nova';
+    margin-bottom: 24px;
+    margin-left: 50px;
+    margin-top: 9px;
+  }
+  * body main #admissions_section #enrollment_container #enrollment_text #enrollment_list .enrollment:last-child {
+    margin-bottom: 0px;
+  }
+  * body main #admissions_section #enrollment_container #enrollment {
+    margin: 36px 0px 0px 10px;
+    height: 204px;
+    width: 397px;
+  }
+  * body main #admissions_section #journey_container {
+    margin: 0px auto;
+    max-width: 834px;
+    padding: 53px 65px 87px 144px;
+  }
+  * body main #admissions_section #journey_container #journey {
+    margin-right: 114px;
+  }
+  * body main #admissions_section #journey_container #journey_text h2 {
+    font: normal 700 32px/40px 'Proxima Nova';
+    margin: 0px 0px 17px 0px;
+  }
+  * body main #admissions_section #journey_container #journey_text p {
+    font: normal 400 16px/19px 'Proxima Nova';
+  }
+  * body main #admissions_section #journey_container #plant {
+    display: none;
+  }
+}
+@media only screen and (max-width: 833px) {
+  * body main #admissions_section #admissions_container {
+    margin: 0px auto;
+    max-width: 375px;
+    background: #05a9e1 url("../img/word_bubble.png") no-repeat -12px 7px;
+    background-size: 536px;
+    padding: 86px 70px 32px 67px;
+  }
+  * body main #admissions_section #admissions_container h1 {
+    font: normal 700 26px/30px 'Proxima Nova';
+    margin-bottom: 13px;
+  }
+  * body main #admissions_section #admissions_container p {
+    font: normal 400 14px/17px 'Proxima Nova';
+    margin-bottom: 14px;
+  }
+  * body main #admissions_section #admissions_container button {
+    padding: 23px 54px;
+  }
+  * body main #admissions_section #admissions_container #couple {
+    display: none;
+  }
+  * body main #admissions_section #research_container {
+    margin: 0px auto;
+    max-width: 375px;
+    padding: 23px 32px 27px 45px;
+    display: flex;
+    flex-direction: column;
+  }
+  * body main #admissions_section #research_container #research {
+    width: 228px;
+    height: 159px;
+    text-align: center;
+    order: 2;
+    margin: 0px 19px 0px 27px;
+  }
+  * body main #admissions_section #research_container #research_text {
+    order: 1;
+  }
+  * body main #admissions_section #research_container #research_text h2 {
+    font: normal 700 26px/46px 'Proxima Nova';
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  * body main #admissions_section #research_container #research_text #research_list .research_item::before {
+    margin-right: 15px;
+  }
+  * body main #admissions_section #research_container #research_text #research_list .research_item {
+    font: normal 400 14px/17px 'Proxima Nova';
+  }
+  * body main #admissions_section #research_container #research_text #research_list .research_item:last-child {
+    margin-bottom: 20px;
+  }
+  * body main #admissions_section #application_container {
+    margin: 0px auto;
+    max-width: 375px;
+    padding: 0px 33px;
+    display: flex;
+    flex-direction: column;
+  }
+  * body main #admissions_section #application_container #application {
+    width: 309px;
+    height: 121px;
+    text-align: center;
+    order: 2;
+    margin: 0px;
+  }
+  * body main #admissions_section #application_container #application_text {
+    order: 1;
+    margin: 0px;
+  }
+  * body main #admissions_section #application_container #application_text h2 {
+    font: normal 700 26px/46px 'Proxima Nova';
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  * body main #admissions_section #application_container #application_text #application_list .application_item::before {
+    margin-right: 15px;
+  }
+  * body main #admissions_section #application_container #application_text #application_list .application_item {
+    font: normal 400 14px/17px 'Proxima Nova';
+  }
+  * body main #admissions_section #application_container #application_text #application_list .application_item:last-child {
+    margin-bottom: 20px;
+  }
+  * body main #admissions_section #financing_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    max-width: 375px;
+    padding: 22px 30px 12px 34px;
+  }
+  * body main #admissions_section #financing_container #financing {
+    height: 170px;
+    margin: 0px;
+    order: 2;
+    text-align: center;
+    width: 340px;
+  }
+  * body main #admissions_section #financing_container #financing_text {
+    margin: 0px;
+    order: 1;
+  }
+  * body main #admissions_section #financing_container #financing_text h2 {
+    font: normal 700 26px/30px 'Proxima Nova';
+    margin: 0px 37px 17px 0px;
+    text-align: center;
+  }
+  * body main #admissions_section #financing_container #financing_text #financing_list .financing_item::before {
+    margin-right: 14px;
+  }
+  * body main #admissions_section #financing_container #financing_text #financing_list .financing_item {
+    font: normal 400 14px/17px 'Proxima Nova';
+  }
+  * body main #admissions_section #financing_container #financing_text #financing_list .financing_item:last-child {
+    margin-bottom: 20px;
+  }
+  * body main #admissions_section #enrollment_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    max-width: 375px;
+    padding: 22px 30px 19px 34px;
+  }
+  * body main #admissions_section #enrollment_container #enrollment {
+    height: 169px;
+    margin: 0px;
+    order: 2;
+    text-align: center;
+    width: 328px;
+  }
+  * body main #admissions_section #enrollment_container #enrollment_text {
+    margin: 0px;
+    order: 1;
+  }
+  * body main #admissions_section #enrollment_container #enrollment_text h2 {
+    font: normal 700 26px/30px 'Proxima Nova';
+    margin: 0px 37px 17px 0px;
+    text-align: center;
+  }
+  * body main #admissions_section #enrollment_container #enrollment_text #enrollment_list .enrollment_item::before {
+    margin-right: 14px;
+  }
+  * body main #admissions_section #enrollment_container #enrollment_text #enrollment_list .enrollment_item {
+    font: normal 400 14px/17px 'Proxima Nova';
+  }
+  * body main #admissions_section #enrollment_container #enrollment_text #enrollment_list #enrollment_item_details {
+    font: normal 400 10px/16px 'Proxima Nova';
+    margin: 9px 0px 12px 42px;
+  }
+  * body main #admissions_section #enrollment_container #enrollment_text #enrollment_list .enrollment_item:last-child {
+    margin-bottom: 20px;
+  }
+  * body main #admissions_section #journey_container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    max-width: 375px;
+    padding: 0px 29px 57px 41px;
+  }
+  * body main #admissions_section #journey_container #journey {
+    height: 78px;
+    margin: 32px 141px 0px 109px;
+    order: 2;
+    text-align: center;
+    width: 84px;
+  }
+  * body main #admissions_section #journey_container #journey_text {
+    margin: 0px;
+    order: 1;
+  }
+  * body main #admissions_section #journey_container #journey_text h2 {
+    font: normal 700 26px/30px 'Proxima Nova';
+    margin: 0px 0px 22px 0px;
+    text-align: center;
+  }
+  * body main #admissions_section #journey_container #journey_text p {
+    font: normal 400 14px/17px 'Proxima Nova';
+    margin: 0px;
+  }
+}
+* body main #schedule_call_section {
+  background-color: #505170;
+}
+* body main #schedule_call_section #schedule_call_container {
+  color: #ffffff;
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 94px 145px 95px 142px;
+  display: flex;
+  align-items: flex-start;
+}
+* body main #schedule_call_section #schedule_call_container #schedule_call_text {
+  margin-top: 113px;
+  margin-right: 183px;
+}
+* body main #schedule_call_section #schedule_call_container #schedule_call_text h2 {
+  font: normal 700 40px/45px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin: 0px 0px 26px 0px;
+}
+* body main #schedule_call_section #schedule_call_container #schedule_call_text #schedule_call_list {
+  margin: 0px;
+  padding: 0px;
+}
+* body main #schedule_call_section #schedule_call_container #schedule_call_text #schedule_call_list .schedule_call_item::before {
+  content: url(../img/checkmark_icon.png);
+  margin-right: 25px;
+}
+* body main #schedule_call_section #schedule_call_container #schedule_call_text #schedule_call_list .schedule_call_item {
+  align-content: center;
+  display: flex;
+  font: normal 400 18px/28px 'Proxima Nova';
+  justify-content: flex-start;
+  letter-spacing: 0.6px;
+  list-style: none;
+}
+@media only screen and (max-width: 1439px) {
+  * body main #schedule_call_section #schedule_call_container {
+    max-width: 834px;
+    padding: 61px 64px 68px 61px;
+  }
+  * body main #schedule_call_section #schedule_call_container #schedule_call_text {
+    margin: 77px 28px 0px 0px;
+  }
+  * body main #schedule_call_section #schedule_call_container #schedule_call_text h2 {
+    font: normal 700 32px/45px 'Proxima Nova';
+  }
+  * body main #schedule_call_section #schedule_call_container #schedule_call_text #schedule_call_list .schedule_call_item {
+    font: normal 400 16px/32px 'Proxima Nova';
+  }
+  * body main #schedule_call_section #schedule_call_container #schedule_call_form #schedule_call_content {
+    height: 415px;
+    width: 338px;
+  }
+}
+@media only screen and (max-width: 833px) {
+  * body main #schedule_call_section #schedule_call_container {
+    display: block;
+    max-width: 375px;
+    padding: 45px 50px 40px 50px;
+    text-align: center;
+  }
+  * body main #schedule_call_section #schedule_call_container #schedule_call_text {
+    margin: 0px 0px 30px 0px;
+  }
+  * body main #schedule_call_section #schedule_call_container #schedule_call_text h2 {
+    font: normal 700 26px/34px 'Proxima Nova';
+  }
+  * body main #schedule_call_section #schedule_call_container #schedule_call_text #schedule_call_list .schedule_call_item::before {
+    margin-right: 8px;
+    transform: scale(0.6);
+  }
+  * body main #schedule_call_section #schedule_call_container #schedule_call_text #schedule_call_list .schedule_call_item {
+    font: normal 400 14px/24px 'Proxima Nova';
+    text-align: left;
+    align-items: center;
+    display: flex;
+  }
+  * body main #schedule_call_section #schedule_call_container #schedule_call_form #schedule_call_content {
+    height: 416px;
+    width: 275px;
+  }
+}
+* body main #team_section {
+  background-color: #f8faff;
+}
+* body main #team_section #team_container {
+  color: #333333;
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 72px 145px 52px 145px;
+  position: relative;
+  text-align: center;
+}
+* body main #team_section #team_container h2 {
+  font: normal 700 40px/49px 'Proxima Nova';
+  text-align: center;
+  margin-bottom: 65px;
+}
+* body main #team_section #team_container .prev-button {
+  display: none;
+}
+* body main #team_section #team_container #team_content {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  max-width: 1100px;
+  position: relative;
+}
+* body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide {
+  background: #ffffff;
+  border-radius: 8px;
+  height: 252px !important;
+  padding: 28px 0px 45px 0px;
+  position: relative;
+  max-width: 242px;
+  margin: 0px;
+}
+* body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide #linkedin {
+  position: absolute;
+  right: 16px;
+  top: 15px;
+}
+* body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide #circle {
+  margin-left: 5px;
+}
+* body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide h4 {
+  font: normal 700 18px/26px 'Proxima Nova';
+  margin-top: 17px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+* body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide h5 {
+  font: normal 400 14px/21px 'Proxima Nova';
+  text-align: center;
+}
+* body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide:last-child {
+  margin-right: 0px;
+}
+* body main #team_section #team_container .team_pagination {
+  display: none;
+}
+* body main #team_section #team_container .next-button {
+  display: none;
+}
+* body main #team_section #team_container #team_button {
+  background: #05aae1;
+  border: transparent;
+  border-radius: 2px;
+  color: #ffffff;
+  font: normal 700 16px/19px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  padding: 23px 73px;
+  margin-top: 48px;
+}
+* body main #team_section #team_container:hover .prev-button {
+  display: inline;
+  position: absolute;
+  top: 277px;
+  left: 55px;
+}
+* body main #team_section #team_container:hover .next-button {
+  display: inline;
+  position: absolute;
+  top: 277px;
+  right: 55px;
+}
+@media only screen and (max-width: 1439px) {
+  * body main #team_section #team_container {
+    max-width: 834px;
+    padding: 67px 140px 87px 140px;
+  }
+  * body main #team_section #team_container h2 {
+    font: normal 700 32px/39px 'Proxima Nova';
+    margin-bottom: 50px;
+  }
+  * body main #team_section #team_container #team_content {
+    display: flex;
+    align-items: center;
+  }
+  * body main #team_section #team_container #team_content .prev-button {
+    display: none;
+  }
+  * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide {
+    min-width: 256px;
+  }
+  * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide #linkedin {
+    position: absolute;
+    right: 16px;
+    top: 15px;
+  }
+  * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide #circle {
+    margin-left: 5px;
+  }
+  * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide h4 {
+    font: normal 700 18px/26px 'Proxima Nova';
+    margin-top: 17px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide h5 {
+    font: normal 400 14px/21px 'Proxima Nova';
+    text-align: center;
+  }
+  * body main #team_section #team_container #team_content .next-button {
+    display: none;
+  }
+  * body main #team_section #team_container .team_pagination {
+    display: inline;
+    position: absolute;
+    top: 446px;
+  }
+  * body main #team_section #team_container #team_button {
+    padding: 23px 73px;
+    margin-top: 96px;
+  }
+  * body main #team_section #team_container:hover .prev-button {
+    display: none;
+  }
+  * body main #team_section #team_container:hover .next-button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 833px) {
+  * body main #team_section #team_container {
+    max-width: 375px;
+    padding: 47px 57px 46px 62px;
+  }
+  * body main #team_section #team_container h2 {
+    font: normal 700 26px/32px 'Proxima Nova';
+    margin-bottom: 30px;
+  }
+  * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide #linkedin {
+    position: absolute;
+    right: 16px;
+    top: 15px;
+  }
+  * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide #circle {
+    margin-left: 5px;
+  }
+  * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide h4 {
+    font: normal 700 18px/26px 'Proxima Nova';
+    margin-top: 17px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  * body main #team_section #team_container #team_content .swiper .swiper-wrapper .swiper-slide h5 {
+    font: normal 400 14px/21px 'Proxima Nova';
+    text-align: center;
+  }
+  * body main #team_section #team_container #team_content .next-button {
+    display: none;
+  }
+  * body main #team_section #team_container .team_pagination {
+    top: 402px;
+  }
+  * body main #team_section #team_container #team_button {
+    padding: 23px 73px;
+    margin: 96px 0px 0px 0px;
+  }
+}
+* body main #best_bootcamp_section {
+  background-color: #ffffff;
+}
+* body main #best_bootcamp_section #best_bootcamp_container {
+  color: #333333;
+  margin: 0px auto;
+  max-width: 1440px;
+  position: relative;
+  text-align: center;
+}
+* body main #best_bootcamp_section #best_bootcamp_container #best_bootcamp_prev_button {
+  position: absolute;
+  left: 34px;
+  top: 238px;
+  z-index: 1;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper {
+  z-index: 0;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide {
+  display: flex;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_career_karma_badge {
+  background-color: #505170;
+  color: #ffffff;
+  padding: 96px 116px 132px 126px;
+  width: 49%;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_career_karma_badge #career_karma {
+  display: block;
+  margin: 0px auto 32px auto;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_career_karma_badge h3 {
+  font: normal 400 26px/26px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_course_report_badge {
+  background-color: #134c36;
+  color: #ffffff;
+  padding: 97px 114px 132px 130px;
+  width: 49%;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_course_report_badge #course_report {
+  display: block;
+  margin: 0px auto 32px auto;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_course_report_badge h3 {
+  font: normal 400 26px/26px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_switchup_badge {
+  background-color: #ad2b1e;
+  color: #ffffff;
+  padding: 103px 114px 130px 130px;
+  width: 49%;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_switchup_badge #switchup {
+  display: block;
+  margin: 0px auto 46px auto;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_switchup_badge h3 {
+  font: normal 400 26px/26px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  text-align: center;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text {
+  padding: 118px 168px 108px 115px;
+  position: relative;
+  text-align: left;
+  width: 714px;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #star_rating {
+  margin-bottom: 17px;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text h2 {
+  font: normal 700 40px/49px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 24px;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text h3 {
+  font: normal 400 22px/22px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 17px;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #quotation_mark {
+  position: absolute;
+  right: 118px;
+  top: 290px;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #best_bootcamp_reviewer {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 24px;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #best_bootcamp_reviewer #gray_rectangle {
+  margin-right: 15px;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #best_bootcamp_reviewer h4 {
+  font: normal 700 20px/24px 'Proxima Nova';
+  margin-bottom: 4px;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #best_bootcamp_reviewer h5 {
+  font: normal 400 16px/22px 'Proxima Nova';
+  margin-bottom: 0px;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text a h4 {
+  color: #05aae1;
+  font: normal 400 18px/26px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 0px;
+  text-decoration-line: underline;
+}
+* body main #best_bootcamp_section #best_bootcamp_container .swiper .best_bootcamp_pagination {
+  display: none;
+}
+* body main #best_bootcamp_section #best_bootcamp_container #best_bootcamp_next_button {
+  position: absolute;
+  right: 32px;
+  top: 238px;
+  z-index: 1;
+}
+@media only screen and (max-width: 1439px) {
+  * body main #best_bootcamp_section #best_bootcamp_container {
+    max-width: 834px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container #best_bootcamp_prev_button {
+    display: none;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_career_karma_badge {
+    padding: 85px 51px 78px 51px;
+    width: 416px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_career_karma_badge #career_karma {
+    display: block;
+    margin: 0px auto 28px auto;
+    width: 259px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_career_karma_badge h3 {
+    font: normal 400 20px/24px 'Proxima Nova';
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_course_report_badge {
+    padding: 88px 52px 103px 50px;
+    width: 416px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_course_report_badge #course_report {
+    display: block;
+    margin: 0px auto 30px auto;
+    width: 244px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_course_report_badge h3 {
+    font: normal 400 20px/24px 'Proxima Nova';
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_switchup_badge {
+    padding: 86px 52px 101px 50px;
+    width: 416px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_switchup_badge #switchup {
+    display: block;
+    margin: 0px auto 31px auto;
+    width: 208px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_switchup_badge h3 {
+    font: normal 400 20px/24px 'Proxima Nova';
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text {
+    padding: 92px 47px 74px 72px;
+    width: 416px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #star_rating {
+    height: 24x;
+    margin-bottom: 17px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text h2 {
+    font: normal 700 32px/39px 'Proxima Nova';
+    margin-bottom: 22px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text h3 {
+    font: normal 400 18px/22px 'Proxima Nova';
+    margin-bottom: 20px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #quotation_mark {
+    position: absolute;
+    right: 45px;
+    top: 283px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #best_bootcamp_reviewer {
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 33px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #best_bootcamp_reviewer #gray_rectangle {
+    margin-right: 16px;
+    height: 53px;
+    width: 51px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #best_bootcamp_reviewer h4 {
+    font: normal 700 18px/22px 'Proxima Nova';
+    margin-bottom: 5px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #best_bootcamp_reviewer h5 {
+    font: normal 400 14px/20px 'Proxima Nova';
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text a h4 {
+    font: normal 400 16px/23px 'Proxima Nova';
+    margin-bottom: 0px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .best_bootcamp_pagination {
+    display: none;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container #best_bootcamp_next_button {
+    display: none;
+  }
+}
+@media only screen and (max-width: 833px) {
+  * body main #best_bootcamp_section #best_bootcamp_container {
+    max-width: 375px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper {
+    position: relative;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide {
+    display: block;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_career_karma_badge {
+    padding: 44px 50px 41px 45px;
+    width: 375px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_career_karma_badge #career_karma {
+    margin: 0px auto 28px auto;
+    width: 162px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_career_karma_badge h3 {
+    font: normal 400 18px/22px 'Proxima Nova';
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_course_report_badge {
+    padding: 55px 50px 41px 45px;
+    width: 375px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_course_report_badge #course_report {
+    margin: 0px auto 29px auto;
+    width: 162px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_course_report_badge h3 {
+    font: normal 400 18px/22px 'Proxima Nova';
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_switchup_badge {
+    padding: 55px 50px 41px 45px;
+    width: 375px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_switchup_badge #switchup {
+    margin: 0px auto 29px auto;
+    width: 136px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_switchup_badge h3 {
+    font: normal 400 18px/22px 'Proxima Nova';
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text {
+    padding: 42px 81px 111px 39px;
+    width: 375px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text h2 {
+    font: normal 700 26px/34px 'Proxima Nova';
+    margin-bottom: 17px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text h3 {
+    font: normal 400 16px/19px 'Proxima Nova';
+    margin-bottom: 14px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #quotation_mark {
+    right: 71px;
+    top: 200px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #best_bootcamp_reviewer {
+    margin-bottom: 25px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #best_bootcamp_reviewer #gray_rectangle {
+    margin-right: 12px;
+    height: 38px;
+    width: 37px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #best_bootcamp_reviewer h4 {
+    font: normal 700 16px/19px 'Proxima Nova';
+    margin-bottom: 3px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text #best_bootcamp_reviewer h5 {
+    font: normal 400 12px/17px 'Proxima Nova';
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .swiper-wrapper .swiper-slide #best_bootcamp_text a h4 {
+    font: normal 400 14px/20px 'Proxima Nova';
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .best_bootcamp_pagination {
+    display: inline;
+    position: absolute;
+    top: 779px;
+  }
+  * body main #best_bootcamp_section #best_bootcamp_container .swiper .best_bootcamp_pagination .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 20px);
+  }
+}
+* body main #financing_overview_section {
+  background-color: #f8faff;
+}
+* body main #financing_overview_section #financing_overview_container {
+  color: #333333;
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 88px 139px 79px 151px;
+  text-align: center;
+}
+* body main #financing_overview_section #financing_overview_container h2 {
+  font: normal 700 40px/49px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 40px;
+}
+* body main #financing_overview_section #financing_overview_container #financing_overview_methods_list {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+* body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 12px rgba(11, 31, 39, 0.15);
+  height: 291px;
+  list-style: none;
+  margin: 0px 40px 46px 0px;
+  padding: 50px 22px 32px 22px;
+  position: relative;
+  width: 256px;
+}
+* body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item .external_link {
+  position: absolute;
+  margin: 0px;
+  right: 18px;
+  top: 13px;
+}
+* body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item h5 {
+  font: normal 700 20px/29px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin: 0px 0px 6px 0px;
+}
+* body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item h3 {
+  color: #05aae1;
+  font: normal 700 34px/50px 'Proxima Nova';
+  margin: 0px 0px 6px 0px;
+}
+* body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item #miashare {
+  margin-bottom: 12px;
+}
+* body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item #climb {
+  margin-bottom: 24px;
+}
+* body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item #ascent {
+  margin-bottom: 24px;
+}
+* body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item p {
+  font: normal 400 14px/21px 'Proxima Nova';
+}
+* body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method:last-child {
+  margin-right: 0px;
+}
+* body main #financing_overview_section #financing_overview_container #financing_overview_phrase {
+  font: normal 400 22px/30px 'Proxima Nova';
+  margin-bottom: 28px;
+}
+* body main #financing_overview_section #financing_overview_container #financing_overview_button {
+  background: #05aae1;
+  box-shadow: 0px 6px 6px rgba(11, 31, 39, 0.08);
+  border: transparent;
+  border-radius: 2px;
+  color: #ffffff;
+  font: normal 700 16px/19px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin: 0px auto;
+  padding: 23px 73px;
+}
+@media only screen and (max-width: 1439px) {
+  * body main #financing_overview_section #financing_overview_container {
+    max-width: 834px;
+    padding: 54px 137px 65px 139px;
+  }
+  * body main #financing_overview_section #financing_overview_container h2 {
+    font: normal 700 32px/39px 'Proxima Nova';
+    margin-bottom: 47px;
+  }
+  * body main #financing_overview_section #financing_overview_container #financing_overview_methods_list {
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px auto;
+    width: 100%;
+  }
+  * body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item {
+    background: #ffffff;
+    box-shadow: 0px 0px 12px rgba(11, 31, 39, 0.15);
+    border-radius: 8px;
+    height: 291px;
+    margin: 0px 0px 30px 0px;
+    padding: 50px 22px 32px 22px;
+    position: relative;
+    text-align: center;
+  }
+  * body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item .external_link {
+    position: absolute;
+    margin: 0px;
+    right: 18px;
+    top: 13px;
+  }
+  * body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item h5 {
+    font: normal 700 20px/29px 'Proxima Nova';
+    margin: 0px 0px 6px 0px;
+  }
+  * body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item h3 {
+    margin-bottom: 14px;
+  }
+  * body main #financing_overview_section #financing_overview_container #financing_overview_phrase {
+    font: normal 400 18px/27px 'Proxima Nova';
+  }
+}
+@media only screen and (max-width: 833px) {
+  * body main #financing_overview_section #financing_overview_container {
+    margin: 0px auto;
+    max-width: 375px;
+    padding: 46px 37px 56px 37px;
+  }
+  * body main #financing_overview_section #financing_overview_container h2 {
+    font: normal 700 26px/32px 'Proxima Nova';
+    margin-bottom: 23px;
+  }
+  * body main #financing_overview_section #financing_overview_container #financing_overview_methods_list {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+  }
+  * body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item {
+    height: 250px;
+    margin: 0px 0px 23px 0px;
+    padding: 28px 25px 28px 25px;
+    width: 100%;
+  }
+  * body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item .external_link {
+    right: 18px;
+    top: 20px;
+    width: 22px;
+  }
+  * body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item h5 {
+    font: normal 700 18px/26px 'Proxima Nova';
+  }
+  * body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item h3 {
+    color: #05aae1;
+    font: normal 700 28px/38px 'Proxima Nova';
+    margin: 0px 0px 6px 0px;
+  }
+  * body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method_item p {
+    font: normal 400 14px/21px 'Proxima Nova';
+  }
+  * body main #financing_overview_section #financing_overview_container #financing_overview_methods_list .pay_method:last-child {
+    margin-bottom: 25px;
+  }
+  * body main #financing_overview_section #financing_overview_container #financing_overview_phrase {
+    font: normal 400 16px/24px 'Proxima Nova';
+    margin-bottom: 25px;
+    padding: 0px 40px;
+  }
+}
+* body main #company_data_section {
+  background-color: #505170;
+}
+* body main #company_data_section #company_data_container {
+  align-items: flex-start;
+  color: #ffffff;
+  display: flex;
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 79px 251px 90px 265px;
+  text-align: center;
+}
+* body main #company_data_section #company_data_container .data .icon {
+  margin-bottom: 15px;
+  width: 67px;
+}
+* body main #company_data_section #company_data_container .data h2 {
+  font: normal 700 44px/54px 'Proxima Nova';
+  margin: 0px;
+}
+* body main #company_data_section #company_data_container .data h5 {
+  font: normal 400 16px/26px 'Proxima Nova';
+  margin: 0px;
+  padding: 0px;
+}
+* body main #company_data_section #company_data_container #cybersecurity {
+  margin-right: 72px;
+}
+* body main #company_data_section #company_data_container #salary {
+  margin-right: 78px;
+}
+* body main #company_data_section #company_data_container #graduate {
+  margin-right: 82px;
+}
+@media only screen and (max-width: 1439px) {
+  * body main #company_data_section #company_data_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 834px;
+    padding: 79px 170px 80px 187px;
+    text-align: center;
+  }
+  * body main #company_data_section #company_data_container .data {
+    margin: 0px;
+  }
+  * body main #company_data_section #company_data_container .data .icon {
+    margin-bottom: 14px;
+    width: 67px;
+  }
+  * body main #company_data_section #company_data_container .data h5 {
+    font: normal 400 16px/19px 'Proxima Nova';
+  }
+  * body main #company_data_section #company_data_container #cybersecurity {
+    margin: 0px 146px 64px 0px;
+    width: 163px;
+  }
+  * body main #company_data_section #company_data_container #cybersecurity h5 {
+    padding: 0px 8px;
+    width: 163px;
+  }
+  * body main #company_data_section #company_data_container #salary {
+    margin: 0px 0px 64px 0px;
+  }
+  * body main #company_data_section #company_data_container #salary h5 {
+    padding: 0px 20px;
+    width: 163px;
+  }
+  * body main #company_data_section #company_data_container #graduate {
+    margin: 0px 147px 0px 11px;
+  }
+}
+@media only screen and (max-width: 833px) {
+  * body main #company_data_section #company_data_container {
+    justify-content: space-around;
+    max-width: 375px;
+    padding: 73px 23px 78px 23px;
+  }
+  * body main #company_data_section #company_data_container .data {
+    margin-bottom: 45px;
+  }
+  * body main #company_data_section #company_data_container .data .icon {
+    margin: 0px 0px 17px 0px;
+    width: 67px;
+  }
+  * body main #company_data_section #company_data_container .data h2 {
+    font: normal 700 34px/41px 'Proxima Nova';
+  }
+  * body main #company_data_section #company_data_container .data h5 {
+    font: normal 400 14px/17px 'Proxima Nova';
+  }
+  * body main #company_data_section #company_data_container #cybersecurity {
+    margin-right: 0px;
+    width: 163px;
+  }
+  * body main #company_data_section #company_data_container #cybersecurity h5 {
+    padding: 0px 8px;
+    width: 163px;
+  }
+  * body main #company_data_section #company_data_container #salary {
+    margin-right: 0px;
+  }
+  * body main #company_data_section #company_data_container #salary h5 {
+    padding: 0px 20px;
+    width: 163px;
+  }
+  * body main #company_data_section #company_data_container #graduate {
+    margin: 0px 0px 45px 0px;
+  }
+}
+* body main #meet_our_alumni_section {
+  background-color: #ffffff;
+}
+* body main #meet_our_alumni_section #meet_our_alumni_container {
+  color: #333333;
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 90px 253px 109px 255px;
+  text-align: center;
+}
+* body main #meet_our_alumni_section #meet_our_alumni_container h2 {
+  font: normal 700 40px/49px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 49px;
+  text-align: center;
+}
+* body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-bottom: 120px;
+  padding: 0px;
+}
+* body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item {
+  margin-right: 28px;
+  position: relative;
+  text-align: left;
+}
+* body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item h4 {
+  font: normal 700 20px/30px 'Proxima Nova';
+  margin: 28px 0px 0px 0px;
+}
+* body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item h5 {
+  font: normal 700 15px/22px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 34px;
+}
+* body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item h5 span {
+  font: normal 400 15px/22px 'Proxima Nova';
+}
+* body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item p {
+  font: normal 400 20px/20px 'Proxima Nova';
+  letter-spacing: 0.6px;
+}
+* body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item #quotation_mark {
+  bottom: -19px;
+  position: absolute;
+  right: 100px;
+}
+* body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item:last-child {
+  margin-right: 0px;
+}
+* body main #meet_our_alumni_section #meet_our_alumni_container #meet_our_alumni_button {
+  background: #05aae1;
+  box-shadow: 0px 6px 6px rgba(11, 31, 39, 0.08);
+  border: transparent;
+  border-radius: 2px;
+  color: #ffffff;
+  font: normal 700 16px/19px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin: 0px auto;
+  padding: 23px 52px;
+}
+@media only screen and (max-width: 1439px) {
+  * body main #meet_our_alumni_section #meet_our_alumni_container {
+    max-width: 834px;
+    padding: 74px 65px 97px 65px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container h2 {
+    font: normal 700 32px/39px 'Proxima Nova';
+    margin-bottom: 63px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list {
+    margin-bottom: 72px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item {
+    margin-right: 20px;
+    position: relative;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item .alumni_video {
+    width: 216px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item h4 {
+    font: normal 700 18px/27px 'Proxima Nova';
+    margin: 21px 0px 0px 0px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item h5 {
+    font: normal 700 14px/21px 'Proxima Nova';
+    margin-bottom: 32px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item h5 span {
+    font: normal 400 14px/22px 'Proxima Nova';
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item p {
+    font: normal 400 18px/22px 'Proxima Nova';
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item #quotation_mark {
+    top: 291px;
+    right: 56px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list #veteran h5 {
+    margin-bottom: 10px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item:last-child {
+    margin-right: 0px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #meet_our_alumni_button {
+    padding: 23px 50px;
+  }
+}
+@media only screen and (max-width: 833px) {
+  * body main #meet_our_alumni_section #meet_our_alumni_container {
+    max-width: 375px;
+    padding: 44px 35px 63px 35px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container h2 {
+    font: normal 700 26px/32px 'Proxima Nova';
+    margin-bottom: 17px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list {
+    display: block;
+    margin-bottom: 3px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item {
+    margin: 0px 0px 42px 0px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item .alumni_video {
+    width: 305px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item h4 {
+    margin: 11px 0px 0px 0px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item h5 {
+    margin-bottom: 0px;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item p {
+    display: none;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #alumni_list .alumni_item #quotation_mark {
+    display: none;
+  }
+  * body main #meet_our_alumni_section #meet_our_alumni_container #meet_our_alumni_button {
+    width: 100%;
+  }
+}
+* body main #question_and_answer_section {
+  background-color: #ffffff;
+}
+* body main #question_and_answer_section #question_and_answer_container {
+  color: #333333;
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 0px 253px 109px 255px;
+}
+* body main #question_and_answer_section #question_and_answer_container h2 {
+  font: normal 700 40px/49px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 47px;
+  text-align: center;
+}
+* body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion {
+  color: #2c393e;
+}
+* body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-item {
+  background: #ffffff;
+  border: transparent;
+  box-shadow: 0px 6px 8px rgba(42, 104, 129, 0.06);
+  margin-bottom: 18px;
+}
+* body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-item .accordion-header {
+  margin: 0px;
+}
+* body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-item .accordion-collapse {
+  margin-right: 108px;
+  padding: 0px 42px 30px 40px;
+}
+* body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-item .accordion-collapse .accordion-body {
+  padding: 0px;
+}
+* body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-button {
+  border: transparent;
+  font: normal 700 20px/24px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  padding: 32px 42px 28px 40px;
+}
+* body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-button::after {
+  background-image: url(../img/dropdown_icon.png);
+  background-repeat: no-repeat;
+  background-size: 18px 12px;
+  content: "";
+  flex-shrink: 0;
+  margin-left: auto;
+  transition: transform 0.2s ease-in-out;
+}
+* body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-button:not(.collapsed)::after {
+  transform: rotate(-180deg);
+}
+* body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-button:not(.collapsed) {
+  background-color: #ffffff;
+  box-shadow: none;
+  color: #333333;
+}
+@media only screen and (max-width: 1439px) {
+  * body main #question_and_answer_section #question_and_answer_container {
+    margin: 0px auto;
+    max-width: 834px;
+    padding: 0px 25px 109px 25px;
+  }
+  * body main #question_and_answer_section #question_and_answer_container h2 {
+    font: normal 700 32px/39px 'Proxima Nova';
+    margin-bottom: 34px;
+  }
+  * body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-item .accordion-header {
+    margin: 0px;
+  }
+  * body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-item .accordion-collapse {
+    font: normal 400 16px/23px 'Proxima Nova';
+    letter-spacing: 0.6px;
+    margin-right: 102px;
+    padding: 0px 42px 30px 40px;
+  }
+  * body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-item .accordion-collapse .accordion-body {
+    padding: 0px;
+  }
+  * body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-button::after {
+    background-image: url(../img/dropdown_icon.png);
+    background-repeat: no-repeat;
+    background-size: 18px 12px;
+    content: "";
+    flex-shrink: 0;
+    margin-left: auto;
+    transition: transform 0.2s ease-in-out;
+  }
+  * body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-button:not(.collapsed)::after {
+    transform: rotate(-180deg);
+  }
+  * body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-button:not(.collapsed) {
+    background-color: #ffffff;
+    box-shadow: none;
+    color: #333333;
+  }
+}
+@media only screen and (max-width: 833px) {
+  * body main #question_and_answer_section #question_and_answer_container {
+    max-width: 375px;
+    padding: 0px 35px 63px 35px;
+  }
+  * body main #question_and_answer_section #question_and_answer_container h2 {
+    font: normal 700 26px/32px 'Proxima Nova';
+    margin-bottom: 25px;
+    text-align: left;
+  }
+  * body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-item .accordion-collapse {
+    display: none;
+  }
+  * body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-button {
+    font: normal 700 16px/19px 'Proxima Nova';
+    padding: 25px 28px 19px 21px;
+    display: flex;
+    justify-content: space-between;
+  }
+  * body main #question_and_answer_section #question_and_answer_container #question_and_answer_accordion .accordion-button::after {
+    margin-left: 25px;
+  }
+}
+.modal .modal-dialog .modal-content .modal-body {
+  text-align: center;
+  width: 500px;
+}
